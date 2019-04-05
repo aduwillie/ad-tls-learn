@@ -1,4 +1,4 @@
-# Encryption Security
+# Transport Layer Security
 
 We use SSL (Secure Sockets Layer) encryption to protect our web facing resources. This is not based on the SSL protocol since it has been deprecated since version 3. The protocol that provides the backbone is called TLS (Transport Layer Security). The protocol runs between TCP and end user protocols like HTTP for web traffic. It can also run on iMap or POP3 for email. Depending on the service, TLS can identify itself by working through a unique port. Check the table below:
 
